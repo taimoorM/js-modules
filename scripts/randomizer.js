@@ -8,7 +8,7 @@ const days = [
   "Sunday",
 ];
 
-function getRandomDay() {
+export default function getRandomDay() {
   const randomDay = Math.floor(Math.random() * days.length);
 
   return days[randomDay];
