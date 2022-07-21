@@ -13,3 +13,7 @@ export default function getRandomDay() {
 
   return days[randomDay];
 }
+
+export function getRandomNumber() {
+  return Math.round(Math.random() * 100);
+}
